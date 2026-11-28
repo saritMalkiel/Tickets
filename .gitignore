@@ -1,0 +1,28 @@
+# .NET build output
+bin/
+obj/
+
+# SQLite database files (runtime data, not source)
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.user
+*.suo
+
+# Visual Studio / Rider
+.vs/
+.idea/
+
+# Test results
+TestResults/
+
+# Node / frontend
+node_modules/
+tickets-frontend/dist/
+tickets-frontend/build/
+
+# Environment files
+.env
+.env.local
